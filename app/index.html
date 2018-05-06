@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="bomboAngularJsApp" style="background-color: #00A5CF">
+  <body ng-app="bomboAngularJsApp">
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -33,14 +33,14 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">Bombo</a>
+            <a class="navbar-brand" href="#/" style="color: white;">Bombo</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li><a ng-href="#!/form">Menu1</a></li>
-              <li><a ng-href="#!/tableau">Menu2</a></li>
+              <li><a ng-href="#!/form" style="color: white;">Menu1</a></li>
+              <li><a ng-href="#!/tableau" style="color: white;">Menu2</a></li>
             </ul>
           </div>
         </div>
@@ -83,6 +83,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/bombo.js"></script>
         <!-- endbuild -->
 </body>
 </html>

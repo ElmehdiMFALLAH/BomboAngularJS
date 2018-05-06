@@ -31,8 +31,8 @@ angular
       })
       .when('/tableau', {
         templateUrl: 'views/tableau.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+        controller: 'BomboCtrl',
+        controllerAs: 'bombo'
       })
       .otherwise({
         redirectTo: '/'
